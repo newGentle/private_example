@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: block;    
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper {
+    margin-top: 50px;
+    border: 1px solid ;
+}
+
+.button {
+    padding-top: 20px;
+    display: block;
+}
+.button > a {
+    text-decoration: none;
+    background-color: rgb(107, 107, 107);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: azure;
+}

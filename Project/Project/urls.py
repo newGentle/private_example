@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from App.views import findword
+from App.views import findword, success
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', findword, name='findword'),
+    path('success/', success, name='success'),
 ]
